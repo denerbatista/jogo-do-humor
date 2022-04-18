@@ -5,13 +5,16 @@
   padding: 0;
 }
 
-
-main {
-  width: 100vw;
-  height: 100vh;
-  border: solid rgb(0, 4, 10);
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
   background: url(../img/background.jpg);
   background-size: cover;
+  border: solid rgb(0, 4, 10);
+}
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,6 +28,7 @@ header {
   background-color: rgba(0, 2, 6, 0.652);
   width: 100vw;
   text-align: center;
+  color: bisque;
 }
 
  #bloco{
@@ -84,4 +88,15 @@ footer {
   width: 100vw;
   text-align: center;
   border: solid rgb(0, 4, 10);
+  color: bisque;
+}
+
+footer a{
+  text-decoration: none;
+  color: bisque;
+}
+
+footer a:hover{
+  font-size: 120%;
+  color: aquamarine;
 }
