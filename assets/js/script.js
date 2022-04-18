@@ -12,5 +12,3 @@ function alterar(){
         number=0;
     }
 }
-
-window.onload = alterar();

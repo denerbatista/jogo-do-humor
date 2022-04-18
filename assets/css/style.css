@@ -14,6 +14,7 @@ body {
   background-size: cover;
   align-items: center;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -47,10 +48,9 @@ h2 {
 }
 
 figure #imagem {
-  width: 60vw;
-  height: 60vh;
+  width: 55vw;
+  height: 55vh;
   border-color: black;
-  box-shadow: 5px black;
 }
 
 #alterar {
